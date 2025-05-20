@@ -1,0 +1,59 @@
+
+.card-1{
+    text-align: center;
+    padding: 10px;
+    margin: 20px 10px;
+   
+}
+ .card-1 .cards{
+   display: flex;
+}
+.card-1 .pr1{
+    color: #767474;
+}
+.card-1>h3{
+    font-weight: 600;
+}
+fieldset{
+    background-color: #06be81;
+    margin: 25px 10px;
+    width: 290px;
+    max-height: 42vh;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    padding: 25px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+    transition: all .5s;
+}
+fieldset:hover{
+    background-color: #fff;
+    color: #343434;
+    box-shadow:  5px 5px 15px #eae8e8,-3px -3px 15px #ececec;
+}
+fieldset legend{
+    display: inline;
+    float: none;
+    background-color:#d4d4d4 ;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: .6rem;
+    color: #000;
+
+}
+legend i{
+    font-size: 23px;
+}
+fieldset p{
+    font-size: 14px;
+}
+@media (max-width:800px) {
+    .card-1 .cards{
+        display: inline-block;
+   
+}
+}

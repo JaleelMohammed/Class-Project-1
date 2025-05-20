@@ -29,7 +29,8 @@ header i{
 }
 .navbar{
     background-color: #c1f6ff;
-    padding: 15px 0;
+    padding: 10px 0;
+    background-size: auto;
 }
 .apps{
     margin-left: 10rem;
@@ -64,8 +65,8 @@ header i{
     }
     
 }
-.btn1{
-    border-radius: 10px;
-    /* padding:0 5px; */
+.btn{
+    border-radius: 5px;
+    margin: 8px 0;
     
 }

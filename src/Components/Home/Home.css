@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container1{
+    background-image: url('../../assets/work.jpg');
+    background-repeat: no-repeat;;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    padding: 3rem 10rem;
+    color:#fff;
+    animation: anime 16s infinite;
+
+}
+
+@keyframes anime{
+    20%{
+        background-image: url("https://plus.unsplash.com/premium_photo-1683887034146-c79058dbdcb1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Z3JvdXAlMjBzdHVkeXxlbnwwfHwwfHx8MA%3D%3D");
+    }
+    40%{
+        
+        background-image: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3JvdXAlMjBzdHVkeXxlbnwwfHwwfHx8MA%3D%3D");
+    }
+    60%{
+        background-image: url("https://media.istockphoto.com/id/2149598192/photo/creative-team-collaborates-on-a-project-with-a-laptop-and-digital-screen-in-a-modern-office.webp?a=1&s=612x612&w=0&k=20&c=W54l9qbCqAJkYKrnEiZ4uneyoQ1iHd57k93Kr1_8VB4=");
+      
+    }
+    80%{
+        background-image: url("https://images.unsplash.com/photo-1582005450386-52b25f82d9bb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D");
+        color: #000;
+    }
+
+    100%{
+        
+        background-image: url("https://plus.unsplash.com/premium_photo-1661526646249-65abcf7e7552?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8");
+    }
+}
+.container1 p{
+    width: 600px;
+    padding: 13px 0;
+}
+.container1 button{
+    padding: 8px 14px;
+    color:#fff;
+    background-color: #06be81;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+}
+.container1 button:hover{
+    color: red;
+}
+
+@media(max-width:800px){
+    .container1{
+        text-align: center;
+        padding: 10px;
+        /* background-size: auto; */
+    }
+    .container1 p{
+        margin: auto;
+        width:auto
+    }
+}
