@@ -1,0 +1,60 @@
+.row{
+    margin: 10px;
+    background-color: transparent;
+    text-align: center;
+}
+.users h4{
+    color: #ffad0a;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 5px ;
+    
+}
+.users{
+    margin: 30px auto;
+    /* margin-bottom: 20px; */
+    text-align: center;
+}
+.users a{
+    text-decoration: none;
+    margin: 5px;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.user{
+    background-color: #ffad0a;
+}
+.js{
+    background-color: #0f48a3;
+    font-weight: 600;
+}
+.boxs{
+    margin: 20px;
+    text-align: left;
+    box-shadow: 3px 5px 10px #e8e8e8;
+    max-width: 95%;
+}
+.boxs h5{
+    text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+    color: #ffad0a;
+}
+.boxs li{
+    font-size: 15px;
+    word-spacing: 3px;
+    color: #373737;
+}
+.accordion-button{
+    background-color: #ffa50a;
+}
+.accordion-item{
+    margin: 5px 25px;
+    /* height: 100px; */
+}
+.accordion-body{
+    max-height: 100px;
+    overflow: scroll;
+}

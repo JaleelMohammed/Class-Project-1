@@ -1,1 +1,9 @@
-
+body{
+    width: 100%;
+    max-width: 1290px;
+    z-index: -1;
+}
+#root{
+    width: 100%;
+    max-width: 1290px;
+}

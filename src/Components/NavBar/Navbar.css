@@ -3,23 +3,35 @@
     padding: 0;
     user-select: none;
 }
+body{
+    /* z-index: -2; */
+}
 marquee{
     /* text-align: center; */
     padding: 3px 30px;
+   
 }
 marquee h5{
     color: #535050;
     font-size: 15px;
 }
+
 header{
     background-color: rgb(9, 9, 64);
     color: #fff;
+    margin: 0;
+    padding: 10px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 header h5{
     font-size: 19px;
     font-weight: 600;
+    /* padding-top: 30px; */
 }
-h5 span{
+header h5 span{
     font-size: 16px;
     cursor: pointer;
 }
@@ -29,7 +41,7 @@ header i{
 }
 .navbar{
     background-color: #c1f6ff;
-    padding: 10px 0;
+    padding: 5px 0;
     background-size: auto;
 }
 .apps{
