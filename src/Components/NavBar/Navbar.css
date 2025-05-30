@@ -3,12 +3,10 @@
     padding: 0;
     user-select: none;
 }
-body{
-    /* z-index: -2; */
-}
 marquee{
     /* text-align: center; */
-    padding: 3px 30px;
+    padding: 3px 50px;
+    max-width: 1300px;
    
 }
 marquee h5{
@@ -61,8 +59,8 @@ header i{
         display: block;
     }
     marquee h5{
-        font-size: 8px;
-        overflow: hidden;
+        font-size: 14px;
+        /* overflow: hidden; */
     }
 }
 @media (min-width:900px) and (max-width1200px) {

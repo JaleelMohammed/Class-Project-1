@@ -2,9 +2,9 @@ import './Footer.css'
 
 export default function Footer() {
   return (
-    <>
+    <div className='body'>
 
-        <div className="row">
+        <div className="row footer d-flex ">
             <div className="col col-1">
                 <i className='bi bi-mortarboard-fill'><span>RJ Technology</span></i>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo est et debitis, ipsa officiis tenetur velit excepturi sequi magni eveniet tempore tempora recusandae perspiciatis? Nihil veniam perspiciatis eaque pariatur fugiat.</p>
@@ -32,7 +32,7 @@ export default function Footer() {
 
              <div className="col col-2">
                 <h5>Subscribe Us</h5>
-                <input type="email" placeholder="Enter Email Address"/><i className="bi bi-telegram"></i><br/><br/>
+                <div className="col m-0"><input type="email" placeholder="Enter Email Address"/><i className="bi bi-telegram"></i> </div>
                 <i className="bi bi-facebook"></i>
                 <i className="bi bi-twitter"></i>
                 <i className="bi bi-instagram"></i>
@@ -40,6 +40,6 @@ export default function Footer() {
 
             </div>
         </div>
-    </>
+    </div>
   )
 }

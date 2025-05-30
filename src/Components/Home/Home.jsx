@@ -10,14 +10,16 @@ export default function Home() {
 
   return (
     <>
-    
-      <div className=' container1 container-fluid'>
+      <div className='container1'>
+        <div className="banner">
+
         <h1>RJ Technology</h1>
         <strong>Best Online & classroom Training Institue</strong>
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo accusamus, sunt, assumenda repudiandae tempora placeat id error facere itaque dicta architecto quibusdam earum laborum totam aspernatur facilis porro. Expedita placeat atque dicta, possimus fuga ea deleniti sunt dignissimos! Ut, repellat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error cumque quis voluptate at unde ducimus dolorum delectus, temporibus nisi animi quod suscipit. Sint dignissimos sequi soluta magnam assumenda quas numquam nisi vero dolore laborum debitis nam, repellendus cum, rerum error asperiores, vitae repudiandae unde dolor suscipit optio delectus. Recusandae, minima!</p>
         <br />
         <button className="bt1" onClick={() => setClose(true)}>Apply Online</button>
+        </div>
       </div>
 
 

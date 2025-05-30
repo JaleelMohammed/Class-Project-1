@@ -7,11 +7,13 @@
     background-image: url('../../assets/work.jpg');
     background-repeat: no-repeat;;
     background-size: cover;
-    height: 80vh;
+    min-height: 80vh;
+    max-height: 100vh;
     width: 100%;
     padding: 3rem 10rem;
     color:#fff;
     animation: anime 16s infinite;
+   
 
 }
 
@@ -51,17 +53,22 @@
 }
 .container1 button:hover{
     color: red;
+    background-color: #0aa373;
 }
 
 @media(max-width:800px){
     .container1{
-        text-align: center;
+        text-align: left;
         padding: 10px;
         /* background-size: auto; */
     }
+    .banner{
+        width: auto;
+        margin:40% 0;
+    }
     .container1 p{
-        margin: auto;
-        width:auto
+        /* margin: auto; */
+        max-width:350px;
     }
 }
 .Apply{
@@ -109,12 +116,13 @@
     background-color: #3b026f;
 }
 .Apply .bi{
-   font-size: 33px;
+   font-size: 34px;
    position: absolute;
-   left: 90.5%;
-   top: -8.9px;
+   left: 90%;
+   top: -10.5px;
    color:#8027d9;
    cursor: pointer;
+ 
 }
 .Apply .bi:hover{
     color: #3b026f;
@@ -179,13 +187,14 @@
 
 @media (max-width:800px) {
     .Apply{
-        margin: auto;
+        /* margin: auto; */
+        width: 270px;
         left: 50%;
-        top: 80%;
+        top: 55%;
         transform: translate(-50%,-50%);
     }
     .Apply .bi{
-        font-size: 27px;
+        font-size: 30px;
     }
     .enquiry{
         right: 5%;

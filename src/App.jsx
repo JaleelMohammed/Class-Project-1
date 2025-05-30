@@ -6,6 +6,7 @@ import KeyCard from './Components/key-Card/KeyCard.jsx'
 import Cards from './Components/Cards/Cards.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 import FrontEnd from './Components/Front-End/FrontEnd.jsx'
+import Apply from './Components/ApplyPage/Apply.jsx'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       {/* <Cards/> */}
       {/* <Footer/> */}
       {/* <FrontEnd/> */}
+      {/* <Apply/> */}
     </>
   )
 }

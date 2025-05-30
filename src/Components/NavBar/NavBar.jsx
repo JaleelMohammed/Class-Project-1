@@ -9,12 +9,12 @@ function NavBar() {
   return (
     <Router>
     <div className='position-relative'>
-      <marquee behavior="alternate" direction="rtl" className="bg-warning" ><h5>Our Best offer Ever!! Summer Special- Get 3 Courses at 22499/-only. <a href="" className=' text-primary '>Read More</a></h5></marquee>
+      <marquee behavior="alternate" direction="ltr" className="bg-warning" ><h5>Our Best offer Ever!! Summer Special- Get 3 Courses at 22499/-only. <a href="" className=' text-primary '>Read More</a></h5></marquee>
 
       <header className='d-flex gap-5 justify-content:space-between;'>
         <div className='d-flex px-5 gap-5'>
           <h5 className='text-center'>Email:<span > rjtechnology@gmail.com</span></h5>
-          <h5 className=''>Contact:<span className=''> +91 8796354678</span></h5>
+          <h5 className=''>Contact:<span > +91 8796354678</span></h5>
         </div>
         <div className=' d-flex justify-content-end gap-5 fs-5 px-5 '>
           <i  className="bi bi-facebook"></i>

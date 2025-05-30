@@ -2,8 +2,9 @@
     padding: 0;
     margin: 0;
 }
-.row{
-    /* width: 100%; */
+.body{
+    background-color: #eafff7;
+    
 }
 .col i,span{
     font-weight: 600;
@@ -19,16 +20,15 @@
 }
 .col{
     width: 240px;
-    padding: 20px 10px;
-    margin:10px auto;
+    /* padding: 20px 10px; */
+    margin: 10px 25px;
+    /* margin:10px auto; */
+    text-align: left;
 }
 .col-1 p{
     font-size: 16px;
     color: #595858;
     padding: 10px 0;
-}
-.row{
-    background-color: #eaeaea;
 }
 
 .col-2 h5{
@@ -48,14 +48,16 @@
     line-height: 23px;
 }
 .col-2 i{
-    background-color: #5de7b0;
-    padding: 8px;
-    margin: 5px;
-    font-size: 16px;
+    /* background-color: #5de7b0; */
+    color: #02b76e;
+    padding: 0  ;
+    margin: 3px 7px;
+    font-size: 28px;
     border-radius: 5px;
     cursor: pointer;
 }
+
 .col-2 input{
     font-size: small;
-    padding: 6px;
+    padding: 5px 8px;
 }
