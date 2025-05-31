@@ -9,7 +9,9 @@
    display: flex;
 }
 .card-1 .pr1{
-    color: #767474;
+    font-size: 13px;
+    font-weight: 600;
+    color: #868282;
 }
 .card-1>h3{
     font-weight: 600;

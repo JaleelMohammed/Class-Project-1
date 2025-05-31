@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* font-family: Poppins,sans-serif; */
     box-sizing: border-box;
 }
 .Cards{
@@ -23,10 +22,8 @@
 }
 .Cards .cols-3{
     text-align: center;
-    /* min-height: 50vh; */
     height:51vh;
     padding: 0;
-    /* height:inherit; */
     width: 350px;
     box-shadow: 5px 5px 15px  #c4c3c3;
     margin: 30px auto;
@@ -37,12 +34,11 @@
     font-weight: 600;
 }
 .cols-3 h5{
-    /* width: 330px; */
     background-color: #1fbc7d;
     color: #fff;
     padding: 15px;
     margin: 0;
-    /* width: 100%; */
+   
     
 }
 .cols-3 h6{
@@ -78,6 +74,9 @@
     }
     .Cards .cols-3{
         height: 38vh;
+    }
+    .cols-3 p{
+        margin: auto;
     }
     
 }

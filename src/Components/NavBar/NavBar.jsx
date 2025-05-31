@@ -15,7 +15,7 @@ function NavBar() {
 
           <div className=' d-flex col-md-6 '>
             <h5 className='text-center px-3'>Email:<span > rjtechnology@gmail.com</span></h5>
-            <h5 className=''>Contact:<span >+91  8796354678</span></h5>
+            <h5 className=''>Contact:<span >+91 8796354678</span></h5>
           </div>
           <div className=' icons col-md-6'>
             <i className="bi bi-facebook"></i>
@@ -37,7 +37,7 @@ function NavBar() {
 
 
           <div className="collapse navbar-collapse apps" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0 fs-5 ">
+            <ul className="navbar-nav me-auto mb-2  fs-5 ">
               <li className="nav-item">
                 <Link className=' text-decoration-none' to="/"><a className="nav-link active" aria-current="page" href="">Home</a></Link>
               </li>

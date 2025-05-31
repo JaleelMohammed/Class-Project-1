@@ -63,7 +63,8 @@
 }
 @media screen and (max-width:500px){
     .users a{
-        padding: 3px 1px;
+        padding: 3px 2px;
+        font-size: 13px;
     }
     
 }

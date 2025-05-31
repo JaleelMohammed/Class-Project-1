@@ -58,5 +58,6 @@
 .col-2 input{
     font-size: small;
     max-height: 33px;
+    /* max-width: 200px; */
 
 }
