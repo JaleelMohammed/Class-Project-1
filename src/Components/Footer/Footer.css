@@ -50,13 +50,12 @@
 .col-2 i{
     color: #02b76e;
     padding: 0 ;
-    margin: 3px 7px;
+    margin: 0px 7px;
     font-size: 26px;
     border-radius: 5px;
     cursor: pointer;
 }
-
 .col-2 input{
     font-size: small;
-    padding: 2px 8px;
+    padding: 3px 8px;
 }
