@@ -32,7 +32,7 @@ export default function Footer() {
 
              <div className="col col-2">
                 <h5>Subscribe Us</h5>
-                <div className="col m-0"><input type="email" placeholder="Enter Email Address"/><i className="bi bi-telegram"></i> </div>
+                <div className=""><input type="email" placeholder="Enter Email Address"/><i className="bi bi-telegram mx-1"></i> </div>
                 <i className="bi bi-facebook"></i>
                 <i className="bi bi-twitter"></i>
                 <i className="bi bi-instagram"></i>

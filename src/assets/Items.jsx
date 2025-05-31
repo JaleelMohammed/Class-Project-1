@@ -6,18 +6,18 @@ const Items=[
     },
     {
         "icon":"bi bi-clock",
-        "title":"Expert Faculty",
+        "title":"Well Wquiped Labs",
         "para":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia accusantium"
     },
     { 
         "icon":"bi bi-bank2",
-        "title":"Expert Faculty",
+        "title":"Quality Education",
         "para":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia accusantium"
     },
     
     { 
         "icon":"bi bi-telephone-fill",
-        "title":"Expert Faculty",
+        "title":"24*7 Access",
         "para":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia accusantium"
     }
 ]

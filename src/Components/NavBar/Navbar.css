@@ -4,37 +4,26 @@
     user-select: none;
 }
 marquee{
-    /* text-align: center; */
-    padding: 3px 50px;
-    max-width: 1300px;
-   
+    text-align: center;
+    padding: 3px 10px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;  
 }
 marquee h5{
     color: #535050;
-    font-size: 15px;
-}
-
-header{
-    background-color: rgb(9, 9, 64);
-    color: #fff;
-    margin: 0;
-    padding: 10px;
-    max-height: 100px;
-    display: flex;
-    justify-content: space-between;
-    
-}
-header h5{
-    font-size: 19px;
-    font-weight: 600;
-    /* padding-top: 30px; */
-}
-header h5 span{
     font-size: 16px;
-    cursor: pointer;
+}
+.row{
+    background:#a41f1f;
 }
 
-header i{
+.icons{
+    text-align: right;
+}
+.icons i{
+    font-size: 21px;
+    padding: 0px 20px;
     cursor: pointer;
 }
 .navbar{
@@ -48,7 +37,7 @@ header i{
 .nav-item{
     padding: 0 20px;
 }
-@media(max-width: 800px) {
+@media(max-width:800px) {
     .nav-item{
         padding: 0;
     }
@@ -59,9 +48,14 @@ header i{
         display: block;
     }
     marquee h5{
-        font-size: 14px;
-        /* overflow: hidden; */
+        font-size: 15px;
     }
+}
+@media(max-width:500px){
+    .icons{
+        text-align: center;
+    }
+
 }
 @media (min-width:900px) and (max-width1200px) {
     .nav-item{

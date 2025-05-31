@@ -12,7 +12,7 @@ export default function Cards() {
 
                 {course.map((data,i)=>
                   <div className="cols-3" key={i}>
-                      <h5> {data.title}</h5>
+                      <h5 className='m-0'> {data.title}</h5>
                       <h6>{data.head}</h6>
 
                       <i className={data.icon}></i>
@@ -23,7 +23,7 @@ export default function Cards() {
                      
                       <p>{data.para}</p>
                      
-                      <a href="">{data.btn}</a>
+                      <button>{data.btn}</button>
 
                   </div>
                 )}

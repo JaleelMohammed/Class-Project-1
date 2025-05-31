@@ -31,7 +31,7 @@
     font-weight: 600;
 }
 .boxs{
-    margin: 20px;
+    margin: 20px auto;
     text-align: left;
     box-shadow: 3px 5px 10px #e8e8e8;
     max-width: 95%;
@@ -55,6 +55,8 @@
     /* height: 100px; */
 }
 .accordion-body{
-    max-height: 100px;
+    padding-top:  5px;
+    text-align: left;
+    height: 100px;
     overflow: scroll;
 }

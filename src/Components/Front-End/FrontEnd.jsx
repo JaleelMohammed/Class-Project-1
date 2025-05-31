@@ -2,7 +2,7 @@ import './FrontEnd.css'
 
 export default function FrontEnd() {
     return (
-        <div className='row'>
+        <div className='row mb-3'>
             <div className="users">
             <h4>Front-End</h4>
                 <a className="user"><i className="bi bi-person-fill"></i>+Enroll</a>
@@ -49,7 +49,7 @@ export default function FrontEnd() {
                     </h2>
                     <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                         <div className="accordion-body">
-                            <ul>
+                            <ul className=''>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt magni ab et libero voluptates!</li>
                                 <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sint sapiente enim!</li>
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
