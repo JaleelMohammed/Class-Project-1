@@ -7,19 +7,18 @@
     color: #ffad0a;
     font-weight: 700;
     font-size: 28px;
-    padding: 5px ;
+    padding: 5px 0px;
     
 }
 .users{
     margin: 30px auto;
-    /* margin-bottom: 20px; */
     text-align: center;
 }
 .users a{
     text-decoration: none;
     margin: 5px;
     color: #fff;
-    padding: 5px 8px;
+    padding: 5px 5px;
     border-radius: 2px;
     font-size: 15px;
 }
@@ -52,11 +51,19 @@
 }
 .accordion-item{
     margin: 5px 25px;
-    /* height: 100px; */
+}
+.accordion-button{
+    font-weight: 600;
 }
 .accordion-body{
     padding-top:  5px;
     text-align: left;
-    height: 100px;
+    height: 140px;
     overflow: scroll;
+}
+@media screen and (max-width:500px){
+    .users a{
+        padding: 3px 1px;
+    }
+    
 }

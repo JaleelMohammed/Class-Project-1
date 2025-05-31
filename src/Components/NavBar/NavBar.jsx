@@ -11,7 +11,7 @@ function NavBar() {
       <div className=' position-relative '>
         <marquee behavior="" direction="ltr" className="bg-warning" ><h5>Our Best offer Ever!! Summer Special- Get 3 Courses at 22499/-only. <a href="" className=' text-primary '>Read More</a></h5></marquee>
 
-        <div className="row text-white py-3" style={{ backgroundColor: 'rgb(5, 10, 70)' }}>
+        <div className="row text-white py-3" style={{ backgroundColor: 'rgb(5, 10, 70)s' }}>
 
           <div className=' d-flex col-md-6 '>
             <h5 className='text-center px-3'>Email:<span > rjtechnology@gmail.com</span></h5>

@@ -3,7 +3,7 @@ import './FrontEnd.css'
 export default function FrontEnd() {
     return (
         <div className='row mb-3'>
-            <div className="users">
+            <div className="users col-md-12">
             <h4>Front-End</h4>
                 <a className="user"><i className="bi bi-person-fill"></i>+Enroll</a>
                 <a className="js">JavaScript</a>
@@ -17,6 +17,7 @@ export default function FrontEnd() {
                     <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt magni ab et libero voluptates!</li>
                     <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sint sapiente enim!</li>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+
                 </ul>
             </div>
             <div className="boxs">
@@ -48,12 +49,20 @@ export default function FrontEnd() {
                         </button>
                     </h2>
                     <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">
+                        <div className="accordion-body pb-0">
                             <ul className=''>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt magni ab et libero voluptates!</li>
                                 <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sint sapiente enim!</li>
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, neque.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+                                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, neque.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+                                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, neque.</li>
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
                                 <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
                                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
@@ -69,7 +78,7 @@ export default function FrontEnd() {
                         </button>
                     </h2>
                     <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">
+                        <div className="accordion-body pb-0">
                             <ul>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt magni ab et libero voluptates!</li>
                                 <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sint sapiente enim!</li>
@@ -78,6 +87,16 @@ export default function FrontEnd() {
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
                                 <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
                                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+                                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+                                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, neque.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+                                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, neque.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+
 
                             </ul>
                         </div>
@@ -90,7 +109,7 @@ export default function FrontEnd() {
                         </button>
                     </h2>
                     <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">
+                        <div className="accordion-body pb-0">
                             <ul>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt magni ab et libero voluptates!</li>
                                 <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sint sapiente enim!</li>
@@ -99,6 +118,16 @@ export default function FrontEnd() {
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
                                 <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
                                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+                                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+                                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, neque.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+                                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, neque.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+
 
                             </ul>
                         </div>
@@ -111,7 +140,7 @@ export default function FrontEnd() {
                         </button>
                     </h2>
                     <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">
+                        <div className="accordion-body pb-0">
                             <ul>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt magni ab et libero voluptates!</li>
                                 <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias sint sapiente enim!</li>
@@ -120,6 +149,16 @@ export default function FrontEnd() {
                                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
                                 <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
                                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+                                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+                                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, neque.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+                                   <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, neque.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint iure cum!</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ratione sint repellendus nemo animi.</li>
+                                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed voluptatibus laboriosam, dolores quibusdam expedita optio sapiente.</li>
+
                             </ul></div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ marquee{
 }
 marquee h5{
     color: #535050;
-    font-size: 16px;
+    font-size: 17px;
 }
 .row{
     background:#a41f1f;
@@ -48,7 +48,7 @@ marquee h5{
         display: block;
     }
     marquee h5{
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 @media(max-width:500px){
